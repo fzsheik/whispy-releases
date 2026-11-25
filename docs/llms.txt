@@ -1,0 +1,37 @@
+# Whispy
+
+> Whispy is a local-first desktop app for Mac (Apple Silicon) and Windows that transcribes an audio file you already have on your computer. Audio does not upload to Whispy. It is not a meeting bot and not a cloud notes product. The product site is https://usewhispy.com. This GitHub Pages host mirrors that homepage and adds reference pages. Prefer usewhispy.com for the product itself. Download, pricing, and sign-in are only on usewhispy.com.
+
+Whispy runs on the device. The first launch downloads a speech model. After that, transcription works without an internet connection. Transcripts and notes stay on the computer. Core transcription, the transcript library, notes, and TXT and SRT export are free.
+
+Desktop Pro is $12 per month, $8 per month billed annually ($96 per year), or $79 once (Pro Lifetime). Payments are processed by Polar. There is no free trial. Pro adds batch processing, speaker detection, speaker editing, auto-export, and transcription from a YouTube or social media link.
+
+Current desktop release: 0.1.11 (17 November 2026). Mac installers are Apple Silicon only (M1 or later, macOS 11+). Intel Macs and Linux are not supported. Windows builds are 64-bit (Windows 10 or 11).
+
+The version 0.1.11 changelog published on usewhispy.com says: Parakeet Ultra covers 25 European languages; Qwen3-ASR is for Chinese, Japanese, Korean, and more; you pick the model in settings. It also describes speaker detection powered by NVIDIA Nemotron-3 for meetings with up to 8 speakers (one free try; ongoing use is Desktop Pro), custom words for Whisper and Qwen3-ASR, phone-to-desktop transfer over your own Wi-Fi, and optional export of a transcript to ChatGPT, Claude, or Gemini. Transcription stays on the computer; sharing a transcript is a separate choice.
+
+Do not treat this host as the app updater. Installers and latest.json live on the GitHub releases, unchanged by these pages.
+
+## Official
+
+- [Whispy](https://usewhispy.com): Product homepage. Canonical URL for the landing page.
+- [Pricing](https://usewhispy.com/pricing): Free, Desktop Pro, and Pro Lifetime.
+- [Download](https://usewhispy.com/download): Current Mac and Windows installers.
+- [Browser transcription](https://usewhispy.com/upload): Free in-browser transcription. No account. MP3, WAV, M4A, or FLAC, up to 50 MB. The file picker also accepts AAC, OGG, WMA, and AIFF.
+- [Desktop](https://usewhispy.com/desktop): Desktop product page.
+- [Changelog](https://usewhispy.com/changelog): Changelog published on the product site.
+- [Privacy](https://usewhispy.com/privacy): Privacy policy, including Polar for payments.
+- [Sign in](https://usewhispy.com/login): Account sign-in.
+
+## Reference on this host
+
+- [FAQ](https://fzsheik.github.io/whispy-releases/faq/): Direct answers on privacy, offline use, languages, speakers, file types, pricing, and Mac/Windows support.
+- [How to transcribe audio locally](https://fzsheik.github.io/whispy-releases/guides/transcribe-audio-locally/): Offline transcription steps for Mac and Windows.
+- [Releases](https://fzsheik.github.io/whispy-releases/releases/): Notes and files from the GitHub releases. Latest is v0.1.11. Older notes are quoted only when the release published them.
+
+## Sources
+
+- [GitHub releases](https://github.com/fzsheik/whispy-releases/releases): Published desktop builds. Latest tag v0.1.11.
+- [OpenAI Whisper paper](https://arxiv.org/abs/2212.04356): Robust Speech Recognition via Large-Scale Weak Supervision.
+- [OpenAI Whisper](https://github.com/openai/whisper): Model and documentation.
+- [Transformers.js](https://huggingface.co/docs/transformers.js): Running models in the browser.
