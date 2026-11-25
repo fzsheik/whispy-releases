@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whispy — Private Desktop Transcription for Mac and Windows</title>
+  <meta name="description" content="Whispy is a Mac and Windows desktop app that turns an audio file you already have into a transcript on your computer, then lets you export the text into tools you already use (ChatGPT, Claude, Notion, Word, EHR). Audio does not upload to Whispy. It is not a meeting bot and not a cloud notes product.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://usewhispy.com">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Whispy — Private Desktop Transcription for Mac and Windows">
+  <meta property="og:description" content="Whispy is a Mac and Windows desktop app that turns an audio file you already have into a transcript on your computer, then lets you export the text into tools you already use (ChatGPT, Claude, Notion, Word, EHR). Audio does not upload to Whispy. It is not a meeting bot and not a cloud notes product.">
+  <meta property="og:url" content="https://usewhispy.com">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://usewhispy.com/og-image.png">
+  <meta property="og:site_name" content="Whispy">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Whispy — Private Desktop Transcription for Mac and Windows">
+  <meta name="twitter:description" content="Whispy is a Mac and Windows desktop app that turns an audio file you already have into a transcript on your computer, then lets you export the text into tools you already use (ChatGPT, Claude, Notion, Word, EHR). Audio does not upload to Whispy. It is not a meeting bot and not a cloud notes product.">
+  <meta name="twitter:image" content="https://usewhispy.com/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Geist:wght@300;400;500;600;700;800&amp;family=Instrument+Serif&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Whispy",
+      "url": "https://usewhispy.com",
+      "description": "Whispy is a Mac and Windows desktop app that turns an audio file you already have into a transcript on your computer, then lets you export the text into tools you already use (ChatGPT, Claude, Notion, Word, EHR). Audio does not upload to Whispy. It is not a meeting bot and not a cloud notes product.",
+      "logo": "https://usewhispy.com/og-image.png"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Whispy",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "macOS, Windows",
+      "url": "https://usewhispy.com",
+      "description": "Whispy is a Mac and Windows desktop app that turns an audio file you already have into a transcript on your computer, then lets you export the text into tools you already use (ChatGPT, Claude, Notion, Word, EHR). Audio does not upload to Whispy. It is not a meeting bot and not a cloud notes product.",
+      "softwareVersion": "0.1.11",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free Mac and Windows desktop transcription. Audio stays on your device.",
+          "url": "https://usewhispy.com/pricing"
+        },
+        {
+          "@type": "Offer",
+          "name": "Desktop Pro",
+          "price": "12",
+          "priceCurrency": "USD",
+          "description": "Desktop Pro monthly subscription at $12 per month.",
+          "url": "https://usewhispy.com/pricing"
+        },
+        {
+          "@type": "Offer",
+          "name": "Desktop Pro yearly",
+          "price": "96",
+          "priceCurrency": "USD",
+          "description": "Desktop Pro billed annually at $96 per year ($8 per month).",
+          "url": "https://usewhispy.com/pricing"
+        },
+        {
+          "@type": "Offer",
+          "name": "Pro Lifetime",
+          "price": "79",
+          "priceCurrency": "USD",
+          "description": "One-time Pro Lifetime purchase for Desktop Pro.",
+          "url": "https://usewhispy.com/pricing"
+        }
+      ],
+      "featureList": [
+        "On-device transcription for an audio file you already have",
+        "Audio does not upload to Whispy",
+        "Export transcript text into tools you already use",
+        "Mac and Windows desktop app",
+        "Not a meeting bot and not a cloud notes product"
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav-wrap">
+    <div class="nav-bar">
+      <input class="nav-toggle" id="nav-toggle" type="checkbox">
+      <div class="nav-left">
+        <a class="logo" href="./">
+      <span class="logo-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="logo-word">whispy</span>
+    </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="https://usewhispy.com/upload">Transcribe</a>
+          <a href="https://usewhispy.com/history">History</a>
+          <a href="https://usewhispy.com/desktop">Desktop</a>
+          <a href="https://usewhispy.com/pricing">Pricing</a>
+          <a class="nav-mobile-only" href="https://usewhispy.com/feedback">Support</a>
+          <a href="faq/">FAQ</a>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <a class="nav-support" href="https://usewhispy.com/feedback">Support</a>
+        <a class="btn-login" href="https://usewhispy.com/login">Login</a>
+        <label class="burger" for="nav-toggle" aria-label="Open menu"><span></span></label>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <a class="pill" href="releases/">
+        <b>New</b>
+        Whispy 0.1.11 is here — read about it
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <h1>Private transcription for <span>sensitive audio work.</span></h1>
+      <p class="lede">Drop your files. Get clean transcripts. Everything runs 100% locally on your machine. No cloud storage. Your audio stays on your device.</p>
+      <div class="actions">
+        <a class="btn-dark" id="desktop-cta" href="https://usewhispy.com/download?source=home"><span>See desktop downloads</span></a>
+        <a class="btn-light" href="https://usewhispy.com/upload"><span>Try in-browser</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+      </div>
+      <div class="demo">
+        <div class="demo-frame">
+          <img src="https://usewhispy.com/videos/whispy-landing.gif" width="1400" height="787" alt="Whispy desktop app demo" decoding="async">
+        </div>
+      </div>
+    </section>
+    <section class="band">
+      <div class="split">
+        <div>
+          <h2>Your audio remains on your computer.</h2>
+          <p>Unlike traditional transcription services that upload your recordings to the cloud, Whispy works entirely on your device. No risk of data leaks. No external transfers. Complete peace of mind.</p>
+          <p style="margin-top:28px"><a class="link-amber" href="https://usewhispy.com/blog">Read how we protect your privacy →</a></p>
+        </div>
+        <div class="features">
+          <div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF7A00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg><div><h3>Local audio processing</h3><p>Once you start using Whispy, you don't even need an internet connection. Everything happens safely inside your own device.</p></div></div>
+          <div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF7A00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"></rect><path d="M9 9h6v6H9z"></path><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3"></path></svg><div><h3>Fast and efficient</h3><p>Whispy uses the power already built into your computer to transcribe audio quickly, without draining your battery or slowing you down.</p></div></div>
+          <div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF7A00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg><div><h3>Yours to keep</h3><p>All your transcripts and notes are stored securely on your own hard drive. You are in full control of your own data.</p></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="audience">
+      <div class="audience-inner">
+        <div class="lines">
+          <div>For the <strong>investigative journalists</strong> who protect their sources.</div>
+          <div>For the <strong>academic researchers</strong> who secure participant data.</div>
+          <div>For the <strong>defense lawyers</strong> who safeguard client disclosures.</div>
+          <div>For the <strong>therapists</strong> protecting patient confidentiality.</div>
+          <div>For the <strong>students</strong> transcribing lectures and seminars.</div>
+          <div class="for-you"><span class="badge">For you.</span><span>Because privacy isn’t a premium feature.</span></div>
+        </div>
+        <p class="note">Whispy is built exclusively for work that cannot leave your physical drive. No account requirements. No server tracking logs. Just absolute local utility.</p>
+      </div>
+    </section>
+    <section class="panel">
+      <h2 class="center-title">Established, simple workflow.</h2>
+      <div class="steps">
+        <div class="step"><div class="num">01</div><h3>Choose accuracy</h3><p>Pick between a fast transcription for quick reviews, or a highly accurate transcription for detailed and clear notes.</p></div>
+        <div class="step"><div class="num">02</div><h3>Drop your file</h3><p>Simply drag and drop your voice memo, meeting recording, or interview file directly into the app to start transcribing instantly.</p></div>
+        <div class="step"><div class="num">03</div><h3>Read and save</h3><p>Review the conversation, copy the text you need, or export the whole transcript to your favorite notes app. All entirely private.</p></div>
+      </div>
+    </section>
+    <section class="closer">
+      <div class="closer-card">
+        <h2>Start transcribing offline.</h2>
+        <p>Start instantly. No accounts, no subscriptions, and no tracking. Experience the fastest and safest way to transcribe audio.</p>
+        <div class="actions" style="margin-bottom:0">
+          <a class="btn-dark" href="https://usewhispy.com/upload"><span>Transcribe free in browser</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          <a class="btn-white" href="https://usewhispy.com/desktop">Get Desktop</a>
+        </div>
+      </div>
+    </section>
+    <aside class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://arxiv.org/abs/2212.04356">Robust Speech Recognition via Large-Scale Weak Supervision (OpenAI Whisper paper)</a></li>
+        <li><a href="https://github.com/openai/whisper">OpenAI Whisper model and documentation</a></li>
+        <li><a href="https://huggingface.co/docs/transformers.js">Transformers.js: running models in the browser (Hugging Face)</a></li>
+      </ul>
+    </aside>
+    <aside class="on-site">
+      <h2>Reference pages</h2>
+      <ul>
+        <li><a href="faq/">FAQ: privacy, languages, speakers, file types, pricing, and platforms</a></li>
+        <li><a href="guides/transcribe-audio-locally/">How to transcribe audio locally on Mac and Windows</a></li>
+        <li><a href="releases/">Releases and changelog, latest v0.1.11</a></li>
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <div class="foot">
+      <div>
+        <a class="logo sm" href="./">
+      <span class="logo-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="logo-word">whispy</span>
+    </a>
+        <p>A Mac and Windows desktop app for an audio file you already have. Audio does not upload. Not a meeting bot.</p>
+        <p class="legal">© 2026 Whispy. All rights reserved.</p>
+        <p>This GitHub Pages site mirrors the homepage. Download, pricing, and sign-in stay on <a href="https://usewhispy.com">usewhispy.com</a>.</p>
+      </div>
+      <div>
+        <h2>Product</h2>
+        <ul>
+          <li><a href="https://usewhispy.com/upload">Upload</a></li>
+          <li><a href="https://usewhispy.com/history">History</a></li>
+          <li><a href="https://usewhispy.com/desktop">Whispy Desktop</a></li>
+          <li><a href="https://usewhispy.com/download">Download App</a></li>
+          <li><a href="https://usewhispy.com/pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Use cases</h2>
+        <ul>
+          <li><a href="https://usewhispy.com/for/therapists">Therapists</a></li>
+          <li><a href="https://usewhispy.com/for/lawyers">Lawyers</a></li>
+          <li><a href="https://usewhispy.com/for/researchers">Researchers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://usewhispy.com/benchmarks">Benchmarks</a></li>
+          <li><a href="https://usewhispy.com/blog">Blog</a></li>
+          <li><a href="https://usewhispy.com/changelog">Changelog</a></li>
+          <li><a href="https://usewhispy.com/feedback">Feedback</a></li>
+          <li><a href="https://usewhispy.com/privacy">Privacy Policy</a></li>
+          <li><a href="https://usewhispy.com/terms">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>This site</h2>
+        <ul>
+          <li><a href="faq/">FAQ</a></li>
+          <li><a href="guides/transcribe-audio-locally/">Transcribe locally</a></li>
+          <li><a href="releases/">Releases</a></li>
+          <li><a href="llms.txt">llms.txt</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var bar = document.querySelector(".nav-bar");
+      if (bar) {
+        var onScroll = function () { bar.classList.toggle("is-scrolled", window.scrollY > 24); };
+        onScroll();
+        window.addEventListener("scroll", onScroll, { passive: true });
+      }
+      var cta = document.getElementById("desktop-cta");
+      if (!cta) return;
+      var ua = navigator.userAgent || "";
+      var touchMac = /Macintosh/i.test(ua) && navigator.maxTouchPoints > 1;
+      var mobile = /iPhone|iPad|iPod|Android/i.test(ua) || touchMac;
+      if (mobile) return;
+      var label = cta.querySelector("span");
+      if (!label) return;
+      if (/Windows/i.test(ua)) label.textContent = "Download free for Windows";
+      else if (/Macintosh|Mac OS X/i.test(ua)) label.textContent = "Download free for Mac";
+    })();
+  </script>
+</body>
+</html>

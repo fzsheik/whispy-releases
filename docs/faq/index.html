@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whispy FAQ — privacy, languages, pricing, and platforms</title>
+  <meta name="description" content="Direct answers about Whispy: local and offline transcription, languages, speaker detection, file types, the $12 Pro plan, and Mac and Windows support.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://fzsheik.github.io/whispy-releases/faq/">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Whispy FAQ — privacy, languages, pricing, and platforms">
+  <meta property="og:description" content="Direct answers about Whispy: local and offline transcription, languages, speaker detection, file types, the $12 Pro plan, and Mac and Windows support.">
+  <meta property="og:url" content="https://fzsheik.github.io/whispy-releases/faq/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://usewhispy.com/og-image.png">
+  <meta property="og:site_name" content="Whispy">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Whispy FAQ — privacy, languages, pricing, and platforms">
+  <meta name="twitter:description" content="Direct answers about Whispy: local and offline transcription, languages, speaker detection, file types, the $12 Pro plan, and Mac and Windows support.">
+  <meta name="twitter:image" content="https://usewhispy.com/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Geist:wght@300;400;500;600;700;800&amp;family=Instrument+Serif&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://fzsheik.github.io/whispy-releases/faq/#faq",
+      "url": "https://fzsheik.github.io/whispy-releases/faq/",
+      "name": "Whispy FAQ",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Whispy",
+        "url": "https://usewhispy.com"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Whispy private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Whispy transcribes an audio file on your computer, and your audio does not upload to Whispy. The homepage says everything runs 100% locally, with no cloud storage, and that transcripts and notes stay on your own hard drive. It also says Whispy is not a meeting bot and not a cloud notes product. If you later export the transcript text into another tool, or use the version 0.1.11 option to send a transcript to ChatGPT, Claude, or Gemini, that share is separate. The 0.1.11 changelog says transcription stays on your computer and you choose what gets shared."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Whispy work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, after the speech model is on the computer. Transcription then runs without an internet connection. The download page says the first run downloads a speech model and that the app works offline after that. Pricing lists “local audio processing (initial model download required)” on the free plan. The desktop installer says to allow 2 GB of free space for the speech model downloaded during setup. The in-browser tool is the same idea: the upload page says the first use downloads a speech model (about 150 MB for the default Tiny model) and that transcription then runs locally in the browser tab."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What languages does Whispy transcribe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whispy does not publish one complete language list on the homepage. Version 0.1.11’s changelog says you pick the model for your language in settings. That changelog says Parakeet Ultra covers 25 European languages, and that Qwen3-ASR is for Chinese, Japanese, Korean, and more. It also says custom words and context, under Advanced, work with Whisper and Qwen3-ASR so names, jargon, and brands come out right. The 25 European languages are not named one by one on the homepage or in the GitHub release note, so this page does not invent that list."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Whispy detect speakers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Speaker detection is a Desktop Pro feature. It labels who said what, and Pro also includes speaker editing. The pricing page lists “Speaker detection — automatically label who said what” and “Speaker editing” on Desktop Pro (monthly, yearly, and lifetime). The version 0.1.11 changelog says the current speaker detection is powered by NVIDIA Nemotron-3, is for long meetings with up to 8 speakers, and that everyone can try it once for free. The same changelog says it “labels who said what twice as accurately.” That comparison is the changelog’s wording. This page does not add a separate accuracy number."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What file types can I transcribe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the browser, the drop zone lists MP3, WAV, M4A, and FLAC, up to 50 MB. The browser file picker also accepts AAC, OGG, WMA, and AIFF, along with audio/*. The upload page says to choose a file (MP3, WAV, M4A, or FLAC, up to 50 MB), then export TXT or SRT or copy the text. On the desktop app, the homepage says to drag and drop a voice memo, meeting recording, or interview file. The public site does not publish a separate desktop extension list, so this page does not invent one. Free desktop export is plain TXT and SRT."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Whispy cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core transcription is free. Desktop Pro is $12 per month, $8 per month billed yearly ($96 a year), or $79 once. Free includes Whispy Browser, Whispy Desktop for Mac and Windows, a persistent transcript library and notes, export to plain TXT and SRT, and local audio processing after the initial model download. Desktop Pro, on every paid plan, adds batch processing, speaker detection, speaker editing, auto-export of finished transcripts, and transcription from a YouTube or social media link. The yearly plan is labeled “Save 33%” on the pricing page. There is no free trial. The pricing page says to download the free desktop app and try core transcription before upgrading. You can cancel anytime from your account, and access continues until the end of the billing period. The privacy policy says payment information is processed by Polar, and that Whispy does not handle or store your card number."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Whispy work on Mac and Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The current desktop app is for Apple Silicon Macs and 64-bit Windows. Intel Macs and Linux are not supported. The download page says Mac is Apple Silicon (.dmg) and that Intel Macs are not supported, and that Windows is x64 (.exe). The installer on the site says Apple Silicon (M1 or later) on macOS 11 or newer, and Windows 10 or 11 on Intel or AMD 64-bit. The latest GitHub release is v0.1.11, published 17 November 2026. It includes a Mac .dmg and a Windows .exe, plus a Windows .msi. Get the current installer from usewhispy.com/download rather than from this mirror."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Whispy a meeting bot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Whispy is not a meeting bot and not a cloud notes product. You transcribe an audio file you already have. The app does not join a call. The homepage describes dropping a voice memo, meeting recording, or interview file that is already on your machine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No account is required to transcribe locally. An account is how you manage Desktop Pro. The homepage says there are no account requirements and no server tracking logs, and the closing section says you can start with no accounts, no subscriptions, and no tracking. The pricing page says you cancel Pro from your account. Sign-in is at usewhispy.com/login."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where are transcripts stored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On your own hard drive. You keep the transcript library and notes. That is the “Yours to keep” line on the homepage, and the free plan includes a persistent transcript library and notes plus TXT and SRT export."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Whispy",
+          "item": "https://fzsheik.github.io/whispy-releases/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FAQ",
+          "item": "https://fzsheik.github.io/whispy-releases/faq/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav-wrap">
+    <div class="nav-bar">
+      <input class="nav-toggle" id="nav-toggle" type="checkbox">
+      <div class="nav-left">
+        <a class="logo" href="../">
+      <span class="logo-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="logo-word">whispy</span>
+    </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="https://usewhispy.com/upload">Transcribe</a>
+          <a href="https://usewhispy.com/history">History</a>
+          <a href="https://usewhispy.com/desktop">Desktop</a>
+          <a href="https://usewhispy.com/pricing">Pricing</a>
+          <a class="nav-mobile-only" href="https://usewhispy.com/feedback">Support</a>
+          <a href="../faq/">FAQ</a>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <a class="nav-support" href="https://usewhispy.com/feedback">Support</a>
+        <a class="btn-login" href="https://usewhispy.com/login">Login</a>
+        <label class="burger" for="nav-toggle" aria-label="Open menu"><span></span></label>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-hero">
+      <p class="crumb"><a href="../">Whispy</a> / FAQ</p>
+      <p class="kicker">Answers</p>
+      <h1>Whispy FAQ</h1>
+      <p class="lede">Direct answers from <a class="link-amber" href="https://usewhispy.com">usewhispy.com</a> and the v0.1.11 release. Checked 25 November 2026. Nothing here is a review, a user count, or a comparison with another product.</p>
+      <nav class="toc" aria-label="Questions">
+        <a href="#private">Is Whispy private?</a>
+        <a href="#offline">Does Whispy work offline?</a>
+        <a href="#languages">What languages does Whispy transcribe?</a>
+        <a href="#speakers">Does Whispy detect speakers?</a>
+        <a href="#files">What file types can I transcribe?</a>
+        <a href="#pricing">How much does Whispy cost?</a>
+        <a href="#platforms">Does Whispy work on Mac and Windows?</a>
+        <a href="#meeting-bot">Is Whispy a meeting bot?</a>
+        <a href="#account">Do I need an account?</a>
+        <a href="#storage">Where are transcripts stored?</a>
+      </nav>
+    </header>
+    <div class="qa-list">
+      <section class="qa" id="private">
+        <h2>Is Whispy private?</h2>
+        <p class="direct">Yes. Whispy transcribes an audio file on your computer, and your audio does not upload to Whispy.</p>
+        <p>The homepage says everything runs 100% locally, with no cloud storage, and that transcripts and notes stay on your own hard drive. It also says Whispy is not a meeting bot and not a cloud notes product.</p>
+        <p>If you later export the transcript text into another tool, or use the version 0.1.11 option to send a transcript to ChatGPT, Claude, or Gemini, that share is separate. The 0.1.11 changelog says transcription stays on your computer and you choose what gets shared.</p>
+      </section>
+      <section class="qa" id="offline">
+        <h2>Does Whispy work offline?</h2>
+        <p class="direct">Yes, after the speech model is on the computer. Transcription then runs without an internet connection.</p>
+        <p>The download page says the first run downloads a speech model and that the app works offline after that. Pricing lists “local audio processing (initial model download required)” on the free plan. The desktop installer says to allow 2 GB of free space for the speech model downloaded during setup.</p>
+        <p>The in-browser tool is the same idea: the upload page says the first use downloads a speech model (about 150 MB for the default Tiny model) and that transcription then runs locally in the browser tab.</p>
+      </section>
+      <section class="qa" id="languages">
+        <h2>What languages does Whispy transcribe?</h2>
+        <p class="direct">Whispy does not publish one complete language list on the homepage. Version 0.1.11’s changelog says you pick the model for your language in settings.</p>
+        <p>That changelog says Parakeet Ultra covers 25 European languages, and that Qwen3-ASR is for Chinese, Japanese, Korean, and more. It also says custom words and context, under Advanced, work with Whisper and Qwen3-ASR so names, jargon, and brands come out right.</p>
+        <p>The 25 European languages are not named one by one on the homepage or in the GitHub release note, so this page does not invent that list.</p>
+      </section>
+      <section class="qa" id="speakers">
+        <h2>Does Whispy detect speakers?</h2>
+        <p class="direct">Speaker detection is a Desktop Pro feature. It labels who said what, and Pro also includes speaker editing.</p>
+        <p>The pricing page lists “Speaker detection — automatically label who said what” and “Speaker editing” on Desktop Pro (monthly, yearly, and lifetime). The version 0.1.11 changelog says the current speaker detection is powered by NVIDIA Nemotron-3, is for long meetings with up to 8 speakers, and that everyone can try it once for free.</p>
+        <p>The same changelog says it “labels who said what twice as accurately.” That comparison is the changelog’s wording. This page does not add a separate accuracy number.</p>
+      </section>
+      <section class="qa" id="files">
+        <h2>What file types can I transcribe?</h2>
+        <p class="direct">In the browser, the drop zone lists MP3, WAV, M4A, and FLAC, up to 50 MB.</p>
+        <p>The browser file picker also accepts AAC, OGG, WMA, and AIFF, along with audio/*. The upload page says to choose a file (MP3, WAV, M4A, or FLAC, up to 50 MB), then export TXT or SRT or copy the text.</p>
+        <p>On the desktop app, the homepage says to drag and drop a voice memo, meeting recording, or interview file. The public site does not publish a separate desktop extension list, so this page does not invent one. Free desktop export is plain TXT and SRT.</p>
+      </section>
+      <section class="qa" id="pricing">
+        <h2>How much does Whispy cost?</h2>
+        <p class="direct">Core transcription is free. Desktop Pro is $12 per month, $8 per month billed yearly ($96 a year), or $79 once.</p>
+        <p>Free includes Whispy Browser, Whispy Desktop for Mac and Windows, a persistent transcript library and notes, export to plain TXT and SRT, and local audio processing after the initial model download.</p>
+        <p>Desktop Pro, on every paid plan, adds batch processing, speaker detection, speaker editing, auto-export of finished transcripts, and transcription from a YouTube or social media link. The yearly plan is labeled “Save 33%” on the pricing page.</p>
+        <p>There is no free trial. The pricing page says to download the free desktop app and try core transcription before upgrading. You can cancel anytime from your account, and access continues until the end of the billing period. The privacy policy says payment information is processed by Polar, and that Whispy does not handle or store your card number.</p>
+      </section>
+      <section class="qa" id="platforms">
+        <h2>Does Whispy work on Mac and Windows?</h2>
+        <p class="direct">Yes. The current desktop app is for Apple Silicon Macs and 64-bit Windows. Intel Macs and Linux are not supported.</p>
+        <p>The download page says Mac is Apple Silicon (.dmg) and that Intel Macs are not supported, and that Windows is x64 (.exe). The installer on the site says Apple Silicon (M1 or later) on macOS 11 or newer, and Windows 10 or 11 on Intel or AMD 64-bit.</p>
+        <p>The latest GitHub release is v0.1.11, published 17 November 2026. It includes a Mac .dmg and a Windows .exe, plus a Windows .msi. Get the current installer from usewhispy.com/download rather than from this mirror.</p>
+      </section>
+      <section class="qa" id="meeting-bot">
+        <h2>Is Whispy a meeting bot?</h2>
+        <p class="direct">No. Whispy is not a meeting bot and not a cloud notes product.</p>
+        <p>You transcribe an audio file you already have. The app does not join a call. The homepage describes dropping a voice memo, meeting recording, or interview file that is already on your machine.</p>
+      </section>
+      <section class="qa" id="account">
+        <h2>Do I need an account?</h2>
+        <p class="direct">No account is required to transcribe locally. An account is how you manage Desktop Pro.</p>
+        <p>The homepage says there are no account requirements and no server tracking logs, and the closing section says you can start with no accounts, no subscriptions, and no tracking. The pricing page says you cancel Pro from your account. Sign-in is at usewhispy.com/login.</p>
+      </section>
+      <section class="qa" id="storage">
+        <h2>Where are transcripts stored?</h2>
+        <p class="direct">On your own hard drive. You keep the transcript library and notes.</p>
+        <p>That is the “Yours to keep” line on the homepage, and the free plan includes a persistent transcript library and notes plus TXT and SRT export.</p>
+      </section>
+      <section class="qa" id="sources">
+        <h2>Where these answers come from</h2>
+        <p class="direct">Each answer above is limited to the public Whispy site or the GitHub releases for this repo.</p>
+        <ul>
+          <li><a href="https://usewhispy.com">usewhispy.com</a> homepage</li>
+          <li><a href="https://usewhispy.com/pricing">Pricing</a></li>
+          <li><a href="https://usewhispy.com/download">Download</a></li>
+          <li><a href="https://usewhispy.com/upload">Browser transcription</a></li>
+          <li><a href="https://usewhispy.com/changelog">Changelog</a> for version 0.1.11</li>
+          <li><a href="https://usewhispy.com/privacy">Privacy policy</a> for Polar</li>
+          <li><a href="https://github.com/fzsheik/whispy-releases/releases/tag/v0.1.11">GitHub release v0.1.11</a></li>
+        </ul>
+        <p>Read the longer walkthrough: <a href="../guides/transcribe-audio-locally/">how to transcribe audio locally on Mac and Windows</a>. Installers: <a href="https://usewhispy.com/download">usewhispy.com/download</a>.</p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="foot">
+      <div>
+        <a class="logo sm" href="../">
+      <span class="logo-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="logo-word">whispy</span>
+    </a>
+        <p>A Mac and Windows desktop app for an audio file you already have. Audio does not upload. Not a meeting bot.</p>
+        <p class="legal">© 2026 Whispy. All rights reserved.</p>
+        <p>This GitHub Pages site mirrors the homepage. Download, pricing, and sign-in stay on <a href="https://usewhispy.com">usewhispy.com</a>.</p>
+      </div>
+      <div>
+        <h2>Product</h2>
+        <ul>
+          <li><a href="https://usewhispy.com/upload">Upload</a></li>
+          <li><a href="https://usewhispy.com/history">History</a></li>
+          <li><a href="https://usewhispy.com/desktop">Whispy Desktop</a></li>
+          <li><a href="https://usewhispy.com/download">Download App</a></li>
+          <li><a href="https://usewhispy.com/pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Use cases</h2>
+        <ul>
+          <li><a href="https://usewhispy.com/for/therapists">Therapists</a></li>
+          <li><a href="https://usewhispy.com/for/lawyers">Lawyers</a></li>
+          <li><a href="https://usewhispy.com/for/researchers">Researchers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://usewhispy.com/benchmarks">Benchmarks</a></li>
+          <li><a href="https://usewhispy.com/blog">Blog</a></li>
+          <li><a href="https://usewhispy.com/changelog">Changelog</a></li>
+          <li><a href="https://usewhispy.com/feedback">Feedback</a></li>
+          <li><a href="https://usewhispy.com/privacy">Privacy Policy</a></li>
+          <li><a href="https://usewhispy.com/terms">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>This site</h2>
+        <ul>
+          <li><a href="../faq/">FAQ</a></li>
+          <li><a href="../guides/transcribe-audio-locally/">Transcribe locally</a></li>
+          <li><a href="../releases/">Releases</a></li>
+          <li><a href="../llms.txt">llms.txt</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var bar = document.querySelector(".nav-bar");
+      if (bar) {
+        var onScroll = function () { bar.classList.toggle("is-scrolled", window.scrollY > 24); };
+        onScroll();
+        window.addEventListener("scroll", onScroll, { passive: true });
+      }
+      var cta = document.getElementById("desktop-cta");
+      if (!cta) return;
+      var ua = navigator.userAgent || "";
+      var touchMac = /Macintosh/i.test(ua) && navigator.maxTouchPoints > 1;
+      var mobile = /iPhone|iPad|iPod|Android/i.test(ua) || touchMac;
+      if (mobile) return;
+      var label = cta.querySelector("span");
+      if (!label) return;
+      if (/Windows/i.test(ua)) label.textContent = "Download free for Windows";
+      else if (/Macintosh|Mac OS X/i.test(ua)) label.textContent = "Download free for Mac";
+    })();
+  </script>
+</body>
+</html>
